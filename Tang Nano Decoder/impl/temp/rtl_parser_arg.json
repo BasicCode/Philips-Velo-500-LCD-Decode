@@ -2,23 +2,23 @@
  "Device" : "GW1NR-9C",
  "Files" : [
   {
-   "Path" : "C:/Users/tommy/Downloads/TangNano-9K-example-main/lcd_4.3/src/TOP.v",
+   "Path" : "C:/Users/tommy/OneDrive/Documents/Saleae/Philips-Velo-500-LCD-Decode/Tang Nano Decoder/src/TOP.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/tommy/Downloads/TangNano-9K-example-main/lcd_4.3/src/VGA_timing.v",
+   "Path" : "C:/Users/tommy/OneDrive/Documents/Saleae/Philips-Velo-500-LCD-Decode/Tang Nano Decoder/src/VGA_timing.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/tommy/Downloads/TangNano-9K-example-main/lcd_4.3/src/gowin_rpll/gowin_rpll.v",
+   "Path" : "C:/Users/tommy/OneDrive/Documents/Saleae/Philips-Velo-500-LCD-Decode/Tang Nano Decoder/src/Velo_timings.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/tommy/Downloads/TangNano-9K-example-main/lcd_4.3/src/Velo_timings.v",
+   "Path" : "C:/Users/tommy/OneDrive/Documents/Saleae/Philips-Velo-500-LCD-Decode/Tang Nano Decoder/src/gowin_rpll/gowin_rpll.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/tommy/Downloads/TangNano-9K-example-main/lcd_4.3/src/gowin_sdp/gowin_sdp.v",
+   "Path" : "C:/Users/tommy/OneDrive/Documents/Saleae/Philips-Velo-500-LCD-Decode/Tang Nano Decoder/src/gowin_sdp/gowin_sdp.v",
    "Type" : "verilog"
   }
  ],
@@ -26,7 +26,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "C:/Users/tommy/Downloads/TangNano-9K-example-main/lcd_4.3/impl/temp/rtl_parser.result",
+ "ResultFile" : "C:/Users/tommy/OneDrive/Documents/Saleae/Philips-Velo-500-LCD-Decode/Tang Nano Decoder/impl/temp/rtl_parser.result",
  "Top" : "TOP",
  "VerilogStd" : "sysv",
  "VhdlStd" : "vhdl_93"
