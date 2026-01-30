@@ -1,0 +1,44 @@
+[
+ {
+  "InstFile" : "C:/Users/tommy/Downloads/TangNano-9K-example-main/lcd_4.3/src/TOP.v",
+  "InstLine" : 1,
+  "InstName" : "TOP",
+  "ModuleFile" : "C:/Users/tommy/Downloads/TangNano-9K-example-main/lcd_4.3/src/TOP.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "TOP",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/tommy/Downloads/TangNano-9K-example-main/lcd_4.3/src/TOP.v",
+    "InstLine" : 39,
+    "InstName" : "Gowin_rPLL_9Mhz",
+    "ModuleFile" : "C:/Users/tommy/Downloads/TangNano-9K-example-main/lcd_4.3/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 11,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "C:/Users/tommy/Downloads/TangNano-9K-example-main/lcd_4.3/src/TOP.v",
+    "InstLine" : 47,
+    "InstName" : "fb_ram",
+    "ModuleFile" : "C:/Users/tommy/Downloads/TangNano-9K-example-main/lcd_4.3/src/gowin_sdp/gowin_sdp.v",
+    "ModuleLine" : 11,
+    "ModuleName" : "Gowin_SDP"
+   },
+   {
+    "InstFile" : "C:/Users/tommy/Downloads/TangNano-9K-example-main/lcd_4.3/src/TOP.v",
+    "InstLine" : 62,
+    "InstName" : "VGA_timing_inst",
+    "ModuleFile" : "C:/Users/tommy/Downloads/TangNano-9K-example-main/lcd_4.3/src/VGA_timing.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "VGA_timing"
+   },
+   {
+    "InstFile" : "C:/Users/tommy/Downloads/TangNano-9K-example-main/lcd_4.3/src/TOP.v",
+    "InstLine" : 77,
+    "InstName" : "Velo_timings_inst",
+    "ModuleFile" : "C:/Users/tommy/Downloads/TangNano-9K-example-main/lcd_4.3/src/Velo_timings.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "Velo_timings"
+   }
+  ]
+ }
+]

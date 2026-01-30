@@ -1,0 +1,15 @@
+-d C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\impl\gwsynthesis\Tang_nano_9K_LCD.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cst C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\src\Tang_nano_9K_LCD.cst
+-cfg C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-place_option 0
+-route_option 0
+-clock_route_order 0
+-correct_hold 1
+-route_maxfan 23
+-global_freq 50.000

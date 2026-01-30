@@ -1,0 +1,33 @@
+Reading netlist file: "C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\impl\gwsynthesis\Tang_nano_9K_LCD.vg"
+Parsing netlist file "C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\impl\gwsynthesis\Tang_nano_9K_LCD.vg" completed
+Processing netlist completed
+Reading constraint file: "C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\src\Tang_nano_9K_LCD.cst"
+WARN  (CT1136) : Bank 3 vccio(1.8) is locked by other constraint or embedded port, conflicting BANK_VCCIO set by 'Reset_Button_ibuf' : IO_TYPE = LVCMOS33 in the same bank
+WARN  (CT1136) : Bank 3 vccio(1.8) is locked by other constraint or embedded port, conflicting BANK_VCCIO set by 'gowin_ibuf_User_Button' : IO_TYPE = LVCMOS33 in the same bank
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1132) :  'input_lcd_clk' was determined to be a clock but was not created.
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'input_lcd_clk_d' by the specified constraint. And then it may lead to the excessive delay or skew
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\impl\pnr\Tang_nano_9K_LCD.power.html" completed
+Generate file "C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\impl\pnr\Tang_nano_9K_LCD.pin.html" completed
+Generate file "C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\impl\pnr\Tang_nano_9K_LCD.rpt.html" completed
+Generate file "C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\impl\pnr\Tang_nano_9K_LCD.rpt.txt" completed
+Generate file "C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\impl\pnr\Tang_nano_9K_LCD.tr.html" completed
+Fri Jan 30 21:05:41 2026
+

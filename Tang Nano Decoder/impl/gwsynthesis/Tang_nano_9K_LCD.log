@@ -1,0 +1,41 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\src\TOP.v'
+Analyzing Verilog file 'C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\src\VGA_timing.v'
+Analyzing Verilog file 'C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\src\gowin_rpll\gowin_rpll.v'
+Analyzing Verilog file 'C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\src\Velo_timings.v'
+Analyzing Verilog file 'C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\src\gowin_sdp\gowin_sdp.v'
+Compiling module 'TOP'("C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\src\TOP.v":1)
+Compiling module 'Gowin_rPLL'("C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\src\gowin_rpll\gowin_rpll.v":11)
+Compiling module 'Gowin_SDP'("C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\src\gowin_sdp\gowin_sdp.v":11)
+WARN  (EX3670) : Actual bit length 19 differs from formal bit length 16 for port 'ada'("C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\src\TOP.v":50)
+WARN  (EX3670) : Actual bit length 19 differs from formal bit length 16 for port 'adb'("C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\src\TOP.v":56)
+Compiling module 'VGA_timing'("C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\src\VGA_timing.v":1)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\src\VGA_timing.v":51)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\src\VGA_timing.v":53)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 19("C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\src\VGA_timing.v":81)
+Compiling module 'Velo_timings'("C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\src\Velo_timings.v":1)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\src\Velo_timings.v":32)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\src\Velo_timings.v":39)
+WARN  (EX3791) : Expression size 20 truncated to fit in target size 19("C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\src\Velo_timings.v":57)
+NOTE  (EX0101) : Current top module is "TOP"
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input User_Button is unused("C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\src\TOP.v":4)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\impl\gwsynthesis\Tang_nano_9K_LCD.vg" completed
+[100%] Generate report file "C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\impl\gwsynthesis\Tang_nano_9K_LCD_syn.rpt.html" completed
+GowinSynthesis finish

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="TOP" Lut="4" T_Register="105(0)" T_Alu="44(0)" T_Lut="159(4)" T_Bsram="10(0)">
+ <SubModule name="Gowin_rPLL_9Mhz"/>
+ <SubModule name="fb_ram" Register="4" Lut="58" Bsram="10" T_Register="4(4)" T_Lut="58(58)" T_Bsram="10(10)"/>
+ <SubModule name="VGA_timing_inst" Register="61" Alu="20" Lut="78" T_Register="61(61)" T_Alu="20(20)" T_Lut="78(78)"/>
+ <SubModule name="Velo_timings_inst" Register="40" Alu="24" Lut="19" T_Register="40(40)" T_Alu="24(24)" T_Lut="19(19)"/>
+</Module>
