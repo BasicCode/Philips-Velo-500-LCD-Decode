@@ -8,7 +8,7 @@ There are two half baked projects contained here:
 * Tang Nano Decoder - Verilog code written in Gowin IDE for the Tang Nano 9K FPGA to decode the data in real-time.
   
 ![Saleae Setup](Images/saleae_setup_1.jpg "Saleae Logic Analyser Capture Setup")
-![FPGA Setup](Images/fpga_setup_1.jpg "FPGA Capture Setup")
+![FPGA Setup](Images/fpga_setup_1.JPG "FPGA Capture Setup")
 
 ## Display
 The display is 620 x 240 pixels monochrome using PWM / temporal dithering to display 16 grayscales. Data is transmitted across a 4-bit data bus with each bit corresponding to adjacent pixels (that is bit 0 = pixel 0, bit 1 = pixel 1 ... bit 0 = pixel 4, bit 1 = pixel 5, ...). Frames are then modified over what appears to be a 4-frame cycle to adjust the pixel intensity. Otherwise the display uses familiar HSYNC, VSYNC, and Dot Clock signals with 10 cycle back and front porch.
