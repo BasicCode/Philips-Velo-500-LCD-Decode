@@ -1,8 +1,8 @@
--d C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\impl\gwsynthesis\Tang_nano_9K_LCD.vg
+-d C:\Users\tommy\OneDrive\Documents\Saleae\Philips-Velo-500-LCD-Decode\Tang Nano Decoder\impl\gwsynthesis\Tang_nano_9K_LCD.vg
 -p GW1NR-9C-QFN88P-6
 -pn GW1NR-LV9QN88PC6/I5
--cst C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\src\Tang_nano_9K_LCD.cst
--cfg C:\Users\tommy\Downloads\TangNano-9K-example-main\lcd_4.3\impl\pnr\device.cfg
+-cst C:\Users\tommy\OneDrive\Documents\Saleae\Philips-Velo-500-LCD-Decode\Tang Nano Decoder\src\Tang_nano_9K_LCD.cst
+-cfg C:\Users\tommy\OneDrive\Documents\Saleae\Philips-Velo-500-LCD-Decode\Tang Nano Decoder\impl\pnr\device.cfg
 -bit
 -tr
 -ph
